@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#070a12" />
+    </linearGradient>
+
+    <!-- Card Fill Gradient -->
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Title Gradient -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <!-- Line Gradients for Sparklines -->
+    <linearGradient id="cyanLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    <linearGradient id="emeraldLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+    <linearGradient id="amberLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#fbbf24" />
+    </linearGradient>
+
+    <!-- Ambient Glow Filter -->
+    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .font-title { font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 800; }
+    .font-sub { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 600; letter-spacing: 0.12em; }
+    .font-body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 500; }
+    .font-mono { font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace; }
+  </style>
+
+  <!-- Outer Window Container -->
+  <rect x="2" y="2" width="1196" height="416" rx="16" fill="url(#bgGrad)" stroke="#334155" stroke-width="1.5" />
+
+  <!-- Ambient Light Orbs -->
+  <circle cx="200" cy="80" r="140" fill="#6366f1" opacity="0.08" filter="url(#glowCyan)" />
+  <circle cx="1000" cy="300" r="160" fill="#06b6d4" opacity="0.06" filter="url(#glowCyan)" />
+
+  <!-- Window Header Bar -->
+  <rect x="2" y="2" width="1196" height="46" rx="16" fill="#0c1322" />
+  <rect x="2" y="32" width="1196" height="16" fill="#0c1322" />
+  <line x1="2" y1="48" x2="1198" y2="48" stroke="#1e293b" stroke-width="1.2" />
+
+  <!-- Window Control Traffic Lights -->
+  <circle cx="28" cy="25" r="6" fill="#ef4444" />
+  <circle cx="48" cy="25" r="6" fill="#f59e0b" />
+  <circle cx="68" cy="25" r="6" fill="#10b981" />
+
+  <!-- Browser URL Pill -->
+  <rect x="360" y="12" width="480" height="26" rx="6" fill="#1e293b" opacity="0.6" stroke="#334155" stroke-width="1" />
+  <text x="600" y="29" fill="#94a3b8" font-size="12" text-anchor="middle" class="font-mono">
+    https://github.com/aparnachakure &bull; Enterprise Analytics &amp; BI
+  </text>
+
+  <!-- Live Status Badge in Header -->
+  <rect x="1040" y="14" width="130" height="22" rx="11" fill="#10b981" opacity="0.15" stroke="#10b981" stroke-width="1" />
+  <circle cx="1054" cy="25" r="3.5" fill="#10b981" />
+  <text x="1066" y="29" fill="#34d399" font-size="11" class="font-sub">OPEN TO ROLES</text>
+
+  <!-- MAIN BANNER HERO CONTENT -->
+  
+  <!-- Identity Pill Tag -->
+  <rect x="60" y="78" width="220" height="26" rx="13" fill="#6366f1" opacity="0.15" stroke="#6366f1" stroke-width="1" />
+  <text x="170" y="95" fill="#a5b4fc" font-size="11" text-anchor="middle" class="font-sub">&bull; DATA &amp; BI ANALYST &bull;</text>
+
+  <!-- Main Name Title -->
+  <text x="60" y="152" fill="url(#titleGrad)" font-size="52" class="font-title">
+    APARNA CHAKURE
+  </text>
+
+  <!-- Professional Subtitle -->
+  <text x="62" y="188" fill="#e2e8f0" font-size="16" class="font-sub">
+    BUSINESS INTELLIGENCE SPECIALIST &bull; SQL &bull; POWER BI &bull; MIS REPORTING
+  </text>
+
+  <!-- Value Description Paragraph -->
+  <text x="62" y="218" fill="#94a3b8" font-size="13" class="font-body">
+    Transforming complex multi-source relational databases into high-impact Power BI executive dashboards,
+  </text>
+  <text x="62" y="238" fill="#94a3b8" font-size="13" class="font-body">
+    automated MIS financial variance reports, and reliable data-driven strategic business insights.
+  </text>
+
+  <!-- 4 EXECUTIVE SPECIALIZATION CARDS -->
+
+  <!-- Card 1: SQL & Relational DBMS -->
+  <g transform="translate(60, 270)">
+    <rect width="250" height="114" rx="10" fill="url(#cardGrad)" stroke="#06b6d4" stroke-opacity="0.35" stroke-width="1.2" />
+    <circle cx="26" cy="28" r="12" fill="#06b6d4" opacity="0.15" />
+    <path d="M21 28h10M26 23v10" stroke="#06b6d4" stroke-width="2" stroke-linecap="round" />
+    <text x="46" y="32" fill="#ffffff" font-size="14" class="font-title">SQL &amp; DBMS</text>
+    <text x="18" y="58" fill="#94a3b8" font-size="11" class="font-body">MySQL &bull; Window Functions</text>
+    <text x="18" y="75" fill="#94a3b8" font-size="11" class="font-body">CTEs &bull; 3NF Schema &bull; Indexing</text>
+    <!-- Mini Sparkline -->
+    <path d="M18 96 Q 50 82, 90 92 T 160 84 T 230 78" fill="none" stroke="url(#cyanLine)" stroke-width="2.5" />
+  </g>
+
+  <!-- Card 2: Power BI & Visualization -->
+  <g transform="translate(330, 270)">
+    <rect width="250" height="114" rx="10" fill="url(#cardGrad)" stroke="#f59e0b" stroke-opacity="0.35" stroke-width="1.2" />
+    <circle cx="26" cy="28" r="12" fill="#f59e0b" opacity="0.15" />
+    <rect x="20" y="22" width="12" height="12" rx="2" fill="none" stroke="#f59e0b" stroke-width="1.8" />
+    <text x="46" y="32" fill="#ffffff" font-size="14" class="font-title">Power BI &amp; DAX</text>
+    <text x="18" y="58" fill="#94a3b8" font-size="11" class="font-body">Interactive KPI Dashboards</text>
+    <text x="18" y="75" fill="#94a3b8" font-size="11" class="font-body">Power Query &bull; Star Schema</text>
+    <!-- Mini Sparkline -->
+    <path d="M18 94 Q 60 76, 110 88 T 170 74 T 230 68" fill="none" stroke="url(#amberLine)" stroke-width="2.5" />
+  </g>
+
+  <!-- Card 3: MIS Reporting & Financial P&L -->
+  <g transform="translate(600, 270)">
+    <rect width="250" height="114" rx="10" fill="url(#cardGrad)" stroke="#10b981" stroke-opacity="0.35" stroke-width="1.2" />
+    <circle cx="26" cy="28" r="12" fill="#10b981" opacity="0.15" />
+    <path d="M20 28l4 4 8-8" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" />
+    <text x="46" y="32" fill="#ffffff" font-size="14" class="font-title">Executive MIS</text>
+    <text x="18" y="58" fill="#94a3b8" font-size="11" class="font-body">Monthly P&amp;L Variance Analysis</text>
+    <text x="18" y="75" fill="#94a3b8" font-size="11" class="font-body">Excel Modeling &bull; BOM Exports</text>
+    <!-- Mini Sparkline -->
+    <path d="M18 92 Q 50 86, 100 78 T 160 84 T 230 70" fill="none" stroke="url(#emeraldLine)" stroke-width="2.5" />
+  </g>
+
+  <!-- Card 4: Python & Data Engineering -->
+  <g transform="translate(870, 270)">
+    <rect width="270" height="114" rx="10" fill="url(#cardGrad)" stroke="#818cf8" stroke-opacity="0.35" stroke-width="1.2" />
+    <circle cx="26" cy="28" r="12" fill="#818cf8" opacity="0.15" />
+    <path d="M22 24l4 4-4 4M28 32h4" fill="none" stroke="#818cf8" stroke-width="2" stroke-linecap="round" />
+    <text x="46" y="32" fill="#ffffff" font-size="14" class="font-title">Data Engineering</text>
+    <text x="18" y="58" fill="#94a3b8" font-size="11" class="font-body">Python &bull; Pandas &bull; NumPy</text>
+    <text x="18" y="75" fill="#94a3b8" font-size="11" class="font-body">ETL Pipelines &bull; Data Cleaning</text>
+    <!-- Mini Sparkline -->
+    <path d="M18 90 Q 70 82, 120 74 T 180 80 T 250 64" fill="none" stroke="url(#titleGrad)" stroke-width="2.5" />
+  </g>
+
+</svg>
