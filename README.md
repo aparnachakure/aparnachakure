@@ -30,7 +30,7 @@
     <td align="center"><b><a href="#-featured-projects">🚀 Projects</a></b></td>
     <td align="center"><b><a href="#-my-analytics-workflow">🧠 Workflow</a></b></td>
     <td align="center"><b><a href="#-technical-skills">🛠️ Skills</a></b></td>
-    <td align="center"><b><a href="#-Certifications">🛠️ Certifications</a></b></td>
+    <td align="center"><b><a href="https://drive.google.com/drive/folders/1bxf19C7DSuRIMmEL-uCNTZWA6LngoNCp" target="_blank">🎓 Certifications</a></b></td>
     <td align="center"><b><a href="#-professional-experience">🏢 Experience</a></b></td>
     <td align="center"><b><a href="#-education">🎓 Education</a></b></td>
     <td align="center"><b><a href="#-lets-connect">📬 Contact</a></b></td>
@@ -189,6 +189,14 @@ flowchart LR
 </table>
 
 ---
+
+### 🎓 Certifications
+
+View my certifications and training credentials in Google Drive.
+
+[**📄 View All Certifications**](https://drive.google.com/drive/folders/1bxf19C7DSuRIMmEL-uCNTZWA6LngoNCp)
+
+> Note: Please check that the folder's sharing permission is set to **Anyone with the link — Viewer** so recruiters can access it.
 
 ### 🏢 Professional Experience
 
