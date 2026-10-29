@@ -30,6 +30,7 @@
     <td align="center"><b><a href="#-featured-projects">🚀 Projects</a></b></td>
     <td align="center"><b><a href="#-my-analytics-workflow">🧠 Workflow</a></b></td>
     <td align="center"><b><a href="#-technical-skills">🛠️ Skills</a></b></td>
+    <td align="center"><b><a href="#-Certifications">🛠️ Certifications</a></b></td>
     <td align="center"><b><a href="#-professional-experience">🏢 Experience</a></b></td>
     <td align="center"><b><a href="#-education">🎓 Education</a></b></td>
     <td align="center"><b><a href="#-lets-connect">📬 Contact</a></b></td>
