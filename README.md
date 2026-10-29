@@ -192,7 +192,7 @@ flowchart LR
 ### 🏢 Professional Experience
 
 #### **System Engineer — Infosys**
-*May 2024 – May 2025 | Mysore, India*
+*june 2024 – May 2025 | Mysore, India*
 
 * Worked in a technical support project environment.
 * Used SQL for data-related tasks, including working with tables, combining data, and supporting data cleaning activities.
